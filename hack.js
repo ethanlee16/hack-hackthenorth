@@ -35,9 +35,6 @@ prompt.get(schema, function(err, result) {
             console.log("Logging in as " + data.name + "...");
             nextFunc(data);
         }
-        /*console.log("Your token is " + data.token);
-        console.log("Logging in as " + data.name + "...");*/
-        //nextFunc(data);
     });
 
     function nextFunc(data) {
