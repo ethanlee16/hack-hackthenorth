@@ -1,0 +1,19 @@
+{
+	"name": "hack-hackthenorth",
+	"description": "See application results before the email!",
+	"version": "1.0.0",
+	"main": "hack.js",
+	"scripts": {
+		"start": "node hack.js"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Ethan Lee",
+		"email": "hello@ethanl.ee",
+		"url": "http://ethanl.ee"
+	},
+	"dependencies": {
+		"request": "*",
+		"prompt": "*"
+	}
+}
